@@ -25,3 +25,17 @@ document.getElementById("btn").onclick = function() {
 
 // Note. btn has an eventListener called onclick that when triggers calls 
 // the function and execute everything inside.
+// also consider type conversion if you want to add arithmetic or other operations
+
+// String Conversion
+// you can use functions (Number(), String(), or Boolean())
+
+let x = "hello";
+let y = "hello";
+let z = "hello";
+
+x = Number(x); // Turns to Nan (Not a Number)
+y = String(y); // Nothing happen
+z = Boolean(z); // Turns True
+
+console.log(`x ${typeof x}: ${x}, y ${typeof y}: ${y}, z ${typeof z}: ${z}`);
