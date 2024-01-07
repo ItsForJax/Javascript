@@ -3,7 +3,7 @@
 
 // if can be alone, paired with "else" or nest with more "else if"
 
-let age = 15;
+let age = 18;
 
 // Lets say i want to console log if age is above 18
 if(age > 18) {
@@ -38,4 +38,11 @@ else {
     console.log('You are underage')
 }
 
+// There is also a shortcut to if else statement, its called
+// ternary operator but its limited to a single expression
+// for example if somethingTrue else somethingFalse can be written as
+// somethingTrue ? ToThisToTrue: ToThisToFalse;
 
+let eligible = age > 16 ? "Youre eligible to drive" : "You are underage";
+
+console.log(`Eligibility: ${eligible}`); 
