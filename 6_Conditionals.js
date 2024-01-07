@@ -42,7 +42,10 @@ else {
 // ternary operator but its limited to a single expression
 // for example if somethingTrue else somethingFalse can be written as
 // somethingTrue ? ToThisToTrue: ToThisToFalse;
-
+//             Condition  if true           do this             or else         do this
+//            {age > 16}    {?}    {"Youre eligible to drive"}    {:}    {"You are underage"};
 let eligible = age > 16 ? "Youre eligible to drive" : "You are underage";
 
 console.log(`Eligibility: ${eligible}`); 
+
+
